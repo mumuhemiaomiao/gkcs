@@ -1,0 +1,148 @@
+#p1 * {
+	position: absolute;
+}
+.bg {
+	width: 7.5rem;
+	height: 13.34rem;
+}
+#p1_mao {
+	width: 2.04rem;
+	top: 4rem;
+	left: calc((100% - 2.04rem)/2);
+}
+.yuan {
+	top: 5.64rem;
+	width: 0.12rem;
+}
+#p1_yuan1 {
+	left: calc((100% - 0.12rem)/2);
+}
+#p1_yuan0 {
+	left: 3.25rem;
+}
+#p1_yuan2 {
+	left: 4.15rem;
+}
+#p1_yuan3 {
+	display: none;
+}
+#p1_loaning {
+	font-size: 18px;
+	width: 7.5rem;
+	text-align: center;
+	top: 6rem;
+}
+#p2 * {
+	position: absolute;
+}
+#p2_btn {
+	width: 2rem;
+	left: calc((100% - 2rem)/2);
+	top: 10rem;
+	opacity: 0;
+	animation: 1s danRu linear forwards;
+}
+@keyframes danRu {
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes daXiao {
+	0% {
+		transform: scale(0.9);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(0.9);
+	}
+}
+.xing {
+	width: 1.5rem;
+}
+#xing0 {
+	right: 0.5rem;
+	top: 8rem;
+	animation: 1s 0.5s daXiao linear infinite;
+}
+#xing2 {
+	top: 5rem;
+	left: -0.5rem;
+	animation: 1s daXiao linear infinite;
+}
+#xing1 {
+	top: 1rem;
+	animation: 1s 0.5s daXiao linear infinite;
+}
+#xing0 {
+	animation: 1s daXiao linear infinite;
+}
+#p3 * {
+	position: absolute;
+}
+.zhezhao {
+	width: 7.5rem;
+	height: 13.34rem;
+	background-color: black;
+	opacity: 0.4;
+}
+#err,#ok {
+	width: 7.5rem;
+	height: 13.34rem;
+	display: none;
+}
+#p3_err,#p3_ok {
+	width: 5rem;
+	top: 4rem;
+	left: calc((100% - 5rem)/2);
+}
+.kong {
+	width: 0.58rem;
+	height: 2.36rem;
+	top: 5.29rem;
+}
+#p3_kong0 {
+	left: 0.9rem;
+}
+#p3_kong1 {
+	left: 2.18rem;
+}
+#p3_kong2 {
+	left: 3.5rem;
+}
+#p3_kong3 {
+	left: 4.77rem;
+}
+#p3_kong4 {
+	left: 6.1rem;
+}
+.daXiao {
+	animation: 1s daXiao linear infinite;
+}
+.opt {
+	width: 0.68rem;
+	height: 2.76rem;
+	top: 9.08rem;
+	opacity: 0;
+}
+#p3_opt0 {
+	left: 0.75rem;
+	animation: 1s danRu linear forwards;
+}
+#p3_opt1 {
+	left: 2.08rem;
+	animation: 1s 1s danRu linear forwards;
+}
+#p3_opt2 {
+	left: 3.42rem;
+	animation: 1s 2s danRu linear forwards;
+}
+#p3_opt3 {
+	left: 4.75rem;
+	animation: 1s 3s danRu linear forwards;
+}
+#p3_opt4 {
+	left: 6.08rem;
+	animation: 1s 4s danRu linear forwards;
+}
