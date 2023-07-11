@@ -16,7 +16,7 @@ function p1F() {
 			$('p1_loaning').innerHTML = `${i}%`
 			if (i===100) {
 				p2F()
-				music()
+				// music()
 			}
 		},i*30)
 	}
