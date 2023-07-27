@@ -121,34 +121,65 @@
 	animation: 1s daXiao linear infinite;
 }
 .opt {
-	width: 0.68rem;
+	width: 0.66rem;
 	height: 2.76rem;
 	top: 9.08rem;
 	opacity: 0;
+	transition: all 0.6s; 
 }
 #p3_opt0 {
-	left: 0.75rem;
+	left: 0.66rem;
 	animation: 1s danRu linear forwards;
 }
 #p3_opt1 {
-	left: 2.08rem;
-	animation: 1s 1s danRu linear forwards;
+	left: calc(0.66rem + (1 * 0.8rem));
+	animation: 1s 0.6s danRu linear forwards;
 }
 #p3_opt2 {
-	left: 3.42rem;
-	animation: 1s 2s danRu linear forwards;
+	left: calc(0.66rem + (2 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 1) danRu linear forwards;
 }
 #p3_opt3 {
-	left: 4.75rem;
-	animation: 1s 3s danRu linear forwards;
+	left: calc(0.66rem + (3 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 2) danRu linear forwards;
 }
 #p3_opt4 {
-	left: 6.08rem;
-	animation: 1s 4s danRu linear forwards;
+	left: calc(0.66rem + (4 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 3) danRu linear forwards;
+}
+#p3_opt5 {
+	left: calc(0.66rem + (5 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 4) danRu linear forwards;
+}
+#p3_opt6 {
+	left: calc(0.66rem + (6 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 5) danRu linear forwards;
+}
+#p3_opt7 {
+	left: calc(0.66rem + (7 * 0.8rem));
+	animation: 1s calc(1s + 0.6s * 6) danRu linear forwards;
 }
 #music_icon{
 	position: fixed;
 	left:10px;
 	top:10px;
 	z-index: 10;
+}
+#result{
+	position: absolute;
+	font-size: 0.36rem;
+	font-weight: bold;
+	color: red;
+	left: 2.2rem;
+	top: 4.50rem;
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; /* 设置白色描边效果 */
+}
+#chartContainer{
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	left: 50%;
+	top: 50%;
+	margin-left: -1.5rem;
+	margin-top: -1.8rem;
 }
