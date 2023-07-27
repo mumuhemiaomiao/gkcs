@@ -24,4 +24,3 @@ $('music_icon').onclick = ()=>{
 // 	}
 // }
 
-
